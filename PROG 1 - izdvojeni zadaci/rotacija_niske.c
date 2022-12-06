@@ -6,7 +6,8 @@
 
 int jeste_rotacija(char s[], char srot[])
 {
-    char slova[255];
+    /***POCETAK KODA***/
+	char slova[255];
     int i;
     for(i=0;i<255;++i) slova[i] = 0;
     char trenutno;
@@ -24,6 +25,7 @@ int jeste_rotacija(char s[], char srot[])
 		if(slova[i]) break;
 	}
 	return i == 255 ? 1 : 0;
+    /***KRAJ KODA***/
 }
 
 int main()

@@ -4,9 +4,11 @@
 
 unsigned obrni(unsigned x)
 {
+    /***POCETAK KODA***/
 	unsigned out = 0;
-	do out = out*10+x%10; while(x/=10);
+	do out = out*10 + x%10; while (x/=10);
 	return out;
+    /***KRAJ KODA***/
 }
 
 int main()

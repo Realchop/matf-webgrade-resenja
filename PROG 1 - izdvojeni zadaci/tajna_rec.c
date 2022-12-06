@@ -6,7 +6,8 @@
 
 int pogodjena_tajna_rec(char tajnaRec[], char pokusaji[])
 {
-    char slova[255];
+    /***POCETAK KODA***/
+	char slova[255];
     short i;
     for(i=0;i<255;++i) slova[i] = 0;
     i = 0;
@@ -18,6 +19,7 @@ int pogodjena_tajna_rec(char tajnaRec[], char pokusaji[])
     	break;
 	} while(tajnaRec[i]);
 	return all_good;
+    /***KRAJ KODA***/
 }
 
 int main()

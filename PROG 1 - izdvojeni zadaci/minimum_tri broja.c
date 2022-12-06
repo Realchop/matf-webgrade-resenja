@@ -4,10 +4,12 @@
 
 int min3(int br1, int br2, int br3)
 {
-    int min = br1;
-    if(min > br2) min = br2;
-    if(min > br3) min = br3;
-    return min;
+    /***POCETAK KODA***/
+	int min = br1;
+	if(min > br2) min = br2;
+	if(min > br3) min = br3;
+	return min;
+    /***KRAJ KODA***/
 }
 
 int main()

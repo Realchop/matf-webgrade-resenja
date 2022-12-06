@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include <math.h>
 
 unsigned suma_kubova_cifara(unsigned x)
 {
+    /***POCETAK KODA***/
 	unsigned suma = 0;
 	do suma += pow(x%10,3); while(x/=10);
 	return suma;
+    /***KRAJ KODA***/
 }
 
 int main()

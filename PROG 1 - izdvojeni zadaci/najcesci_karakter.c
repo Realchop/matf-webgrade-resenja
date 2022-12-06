@@ -7,13 +7,15 @@
 
 int najcesci_karakter(char s[])
 {
-    char karakteri[255];
+    /***POCETAK KODA***/
+	char karakteri[255];
     short i, max=0, temp;
     for(i=0;i<255;++i) karakteri[i]=0;
     i = 0;
     do if((temp=++karakteri[s[i++]]) > max) max = temp; while(s[i]);
     for(i=0;i<255;++i)
     	if(karakteri[i]==max) return i;
+    /***KRAJ KODA***/
 }
 
 int main()
